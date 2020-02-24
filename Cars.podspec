@@ -13,7 +13,7 @@ This Cars framework just returns the test string when used.
   s.source           = { :git => 'https://github.com/UdayakumarRepo/Cars.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '11.0'
-  s.source_files = 'Cars/Cars/*.swift'
+  s.source_files = 'Cars/*.swift'
   s.swift_version = '5.0'
  
 end
