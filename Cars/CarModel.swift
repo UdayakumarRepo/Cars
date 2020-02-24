@@ -23,5 +23,16 @@ public class CarModel{
     public func myVersion() -> String{
          return "1.0.4"
     }
-
+    
+    func internalfunction() -> String{
+         return "1.0.4"
+    }
+    
+    open func openFunction() -> String{
+         return "1.0.4"
+    }
+    
+    fileprivate func privatefunction() -> String{
+         return "1.0.4"
+    }
 }
