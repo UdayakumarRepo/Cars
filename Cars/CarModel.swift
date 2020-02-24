@@ -19,5 +19,9 @@ public class CarModel{
     public func whoAreYour() -> String {
         return "I am an iOS Framwork.!"
     }
+    
+    public func myVersion() -> String{
+         return "1.0.4"
+    }
 
 }
