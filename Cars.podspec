@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Cars'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Simple cars framework for demo purposes.'
  
   s.description      = <<-DESC
@@ -13,6 +13,7 @@ This Cars framework just returns the test string when used.
   s.source           = { :git => 'https://github.com/UdayakumarRepo/Cars.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '11.0'
-  s.source_files = 'Cars/**/*'
+  s.source_files = 'Cars/Cars/*.swift'
+  s.swift_version = '5.0'
  
 end
